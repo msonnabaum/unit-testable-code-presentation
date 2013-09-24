@@ -599,7 +599,7 @@ public function testInboundSubPath() {
 
   $alias_processor->expects($this->once())
     ->method('processInbound')
-    ->with('node/1/a')
+    ->with('content/first-node')
     ->will($this->returnValue('node/1'));
 
 
@@ -624,7 +624,7 @@ public function testInboundSubPath() {
 
   $alias_processor->expects($this->once())
     ->method('processInbound')
-    ->with('node/1/a')
+    ->with('content/first-node')
     ->will($this->returnValue('node/1'));
 
   $subpath_processor = new PathProcessor($alias_processor);
@@ -649,7 +649,7 @@ public function testInboundSubPath() {
 
   $alias_processor->expects($this->once())
     ->method('processInbound')
-    ->with('node/1/a')
+    ->with('content/first-node')
     ->will($this->returnValue('node/1'));
 
   $subpath_processor = new PathProcessor($alias_processor);
@@ -674,7 +674,7 @@ public function testInboundSubPath() {
 
   $alias_processor->expects($this->once())
     ->method('processInbound')
-    ->with('node/1/a')
+    ->with('content/first-node')
     ->will($this->returnValue('node/1'));
 
   $subpath_processor = new PathProcessor($alias_processor);
