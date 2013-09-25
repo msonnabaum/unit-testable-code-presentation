@@ -6,7 +6,7 @@
 
 ---
 
-## Hi, I'm Mark Sonnabaum
+## 👋, I'm Mark Sonnabaum
 
 ### [@msonnabaum](http://twitter.com/msonnabaum)
 
@@ -33,13 +33,14 @@
 ---
 
 ## Unit tests are **fast**
+# 🐇
 ---
 ## Fast tests are not
 ## always **unit** tests
 ---
 ## Unit tests do not
-## replace **integration** and
-## **acceptance** tests
+## replace **integration** 🐢 and
+## **acceptance** 🐌 tests
 ---
 .title2
 # Why unit test?
@@ -379,6 +380,7 @@ class AddRoleUser extends ChangeUserRoleBase {
 .title3
 ## Explicit, easily
 ## substituted dependencies
+# 🐒
 ---
 .title
 # Test doubles
@@ -453,7 +455,7 @@ class FakeStuffstorage implements StuffStorageInterface {
 ```
 ---
 
-## Used for **indirect input**
+## Used for **indirect input** 👈
 ## Asserts on **state**
 ---
 .title2
@@ -502,7 +504,7 @@ class FakeStuffstorage implements StuffStorageInterface {
 ```
 ---
 
-## Used for **indirect output**
+## Used for **indirect output** 👉
 ## Asserts on **behavior**
 ---
 .title3
@@ -748,6 +750,8 @@ on line 48
 ### `require` pollutes test environment
 ### Unpredictable dependencies
 
+# 🛀📻
+
 ---
 .code
 ```diff
@@ -792,6 +796,7 @@ OK (1 test, 2 assertions)
 ### Autoload
 ### Non-object-under-test code running
 ### Must include setter
+# 👨🔨
 
 ---
 .code
@@ -851,6 +856,7 @@ OK (1 test, 2 assertions)
 
 ### Mocks via inheritance/test-only setter
 
+# 👧🐶
 
 ---
 .code
@@ -901,28 +907,31 @@ OK (1 test, 2 assertions)
 ### Requires service definition
 ### or
 ### Factory method*
-
+# 👮🍩🍩
 ---
 .title2
 # Which method should I use?
 ---
 .title3
-## 1. Constructor injection 🙆
+## 1. Constructor injection
 
 ### Default
 ### Domain collaborators
+# 🙆
 
 ---
 .title3
-## 2. Test-only setter 🙋
+## 2. Test-only setter
 
 ### Dependencies with safe defaults
 ### Bloated constructor
+# 🙋
 ---
 .title3
-## 3. Replace singleton 🙅
+## 3. Replace singleton
 
 ### Avoid
+# 🙅
 ---
 .fakequote
 > But it takes so much work to setup my unit test!
@@ -1081,8 +1090,15 @@ class LocalTaskManager extends DefaultPluginManager {
 
 ---
 # THANKS
+## 🐶🐺	🐱🐭	🐹	🐰	🐸	🐯	🐨	🐻
 
+---
 ## **Questions?**
+
+## Feedback:
+### Locate this session at the DrupalCon Prague website:
+#### http://prague2013.drupal.org/schedule
+#### (Click the “Take the survey” link)
 ---
 
 <!--

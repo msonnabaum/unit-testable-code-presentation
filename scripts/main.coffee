@@ -1,7 +1,7 @@
 head.js "scripts/zepto.js", "reveal.js/plugin/markdown/marked.js", "scripts/preso.js", ->
   p = new Preso()
   p.forceCodeLanguage "php"
-  p.addDebugElement()
+  #p.addDebugElement()
 
   Reveal.initialize {
     # Display controls in the bottom right corner

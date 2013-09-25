@@ -5,7 +5,6 @@
 
     p = new Preso();
     p.forceCodeLanguage("php");
-    p.addDebugElement();
     Reveal.initialize({
       controls: false,
       progress: true,
