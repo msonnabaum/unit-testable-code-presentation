@@ -40,22 +40,6 @@ head.js "scripts/zepto.js", "reveal.js/plugin/markdown/marked.js", "scripts/pres
         async: true
         callback: -> hljs.initHighlightingOnLoad()
       }
-      #{src: 'lib/prism.js', async: true, callback: -> Prism.highlightAll()}
-      {
-        src: 'lib/emojify/emojify.min.js'
-        async: true
-        callback: ->
-          emojify.setConfig {
-            #emojify_tag_type: 'img'
-            emoticons_enabled: true
-            people_enabled: true
-            nature_enabled: true
-            objects_enabled: true
-            places_enabled: true
-            symbols_enabled: true
-          }
-          #emojify.run()
-      }
     ]
   }
 

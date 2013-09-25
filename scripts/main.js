@@ -27,19 +27,6 @@
           callback: function() {
             return hljs.initHighlightingOnLoad();
           }
-        }, {
-          src: 'lib/emojify/emojify.min.js',
-          async: true,
-          callback: function() {
-            return emojify.setConfig({
-              emoticons_enabled: true,
-              people_enabled: true,
-              nature_enabled: true,
-              objects_enabled: true,
-              places_enabled: true,
-              symbols_enabled: true
-            });
-          }
         }
       ]
     });
